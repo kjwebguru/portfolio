@@ -1,0 +1,255 @@
+/**
+    header-color-day: Gradient(#659DBD/#5AB9EA) 
+    header-color-night: Gradient(#07182b/#072142)
+    text-color-day: Black/#5AB9EA/#f04d58
+    text-color-night: White/#66FCF1
+**/
+/* =========== Responsive ============ */
+
+@media only screen and (min-width: 600px) {
+    .myname h1{
+        font-size: 6rem;
+    }
+
+    .skills h2{
+        font-size: 3rem;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .myname h1{
+        font-size: 4rem;
+    }
+
+    .skills h2{
+        font-size: 2rem;
+    }
+
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Nunito", "Roboto", "Helvetica", "Arial", sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    color: white;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* =========== Navigation ============ */
+
+.navbar-brand {
+    font-size: 28px;
+    color: white !important;
+}
+
+.icon {
+    margin-left: 10px;
+}
+
+/* =========== Header ============ */
+#header {
+    /* background-image: linear-gradient(#07182b, #072142); */
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+}
+
+.title {
+    margin-top: 50px;
+    text-align: center;
+    /* background-image: url("../images/star.svg"); */
+    background-repeat: no-repeat;
+}
+
+.myimage img {
+    border-radius: 100px;
+    height: 120px;
+    width: 120px;
+}
+
+.myimage {
+    margin-bottom: 40px;
+}
+
+.myname h1{
+    line-height: 1;
+    letter-spacing: 0.05em;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.splitter-left hr {
+    margin-top: 0px;
+    float: left;
+    width: 60%;
+    border: 5px solid #f04d58;
+    border-radius: 10px;
+}
+
+.splitter-right hr {
+    margin-top: 0px;
+    float: right;
+    width: 60%;
+    border: 5px solid #f04d58;
+    border-radius: 10px;
+}
+
+
+.skills h2 {
+    text-align: center;
+    letter-spacing: 0.05em;
+    padding-bottom: 50px;
+}
+
+/* =========== Sections ============ */
+
+section{
+    margin-top: 80px;
+}
+
+#technologyStack {
+    margin-bottom: 80px;
+}
+
+.sub-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sub-title p{
+    font-size: 20px;
+    color: black;
+}
+
+.sub-title h2 {
+    color: black;
+    font-size: 4em;
+}
+
+.tech-logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tech-logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.ng-logo img {
+    height: 120px;
+    width: 120px;
+}
+
+.heading-container{
+    /* background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%); */
+    background: linear-gradient(90deg, #1CB5E0 0%, #5c0067 100%);
+    margin-bottom: 30px;
+}
+
+#timeline .heading-container{ 
+    margin-bottom: 0px;
+
+}
+
+.heading-sub-title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.heading-sub-title h2{
+    padding-top: 80px;
+    color: white;
+    font-size: 4em;
+}
+
+/* =========== Timeline ============ */
+
+.vline{
+    width: 0px;
+    height: 100%;
+    border-width: 6px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      #1CB5E0, 
+      #5c0067
+    ) 1 100%;
+    /* border-image: linear-gradient(90deg, #1CB5E0 0%, #000851 100%); */
+}
+
+.vline-op{
+    width: 0px;
+    height: 100%;
+    border-width: 6px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom,
+      #5c0067, 
+      #1CB5E0 
+    ) 1 100%;
+}
+
+.post-content{
+    text-align: left;
+    margin-top: 50px;
+    border: 0.5px solid grey;
+    color: black;
+}
+
+.heading{
+    margin-top: 20px;
+}
+
+.post-date{
+    text-align: right;
+    margin-top: 50px;
+    color: black;
+}
+
+.date-left{
+    padding-top: 20px;
+    float: left;
+}
+
+.date-right{
+    padding-top: 20px;
+    float: right;
+}
+
+/* =========== Contact ============ */
+
+#connect{
+    background: #1a1a1a;;
+}
+
+.con{
+    float: right;
+}
+
+.btn-con{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: ivory;
+    border-radius: 100%;
+    transition: 0.2s;
+}
+
+.btn-con:hover{
+    border: 2px solid black;
+}
+
+.footer{
+    padding-top: 20px;
+}
+
